@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: coral;
+}
+
+.for{
+    font-family: Arial;
+    font-weight: 500;
+    font-size: larger;
+    align-content: center;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    }
+
+.branding{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 30px;
+}

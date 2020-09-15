@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+ 
+
+
+<div class="branding">
+    <h1>MEDTIME</h1>
+</div>
+<div class="for">
+<form  action="add" >
+    {% csrf_token %}
+    FULLNAME       : <input type="text" name="n"> <br>
+    MEDI NAME: <input type="text" name =x> <br>
+    PHONE NO     : <input type="text" name =y> <br>
+    <label for="t">REPEEAT:</label>
+        <select name="t">
+          <option value="DAILY">DAILY</option>
+          <option value="WEAKLY">WEAKLY</option>
+          <option value="MONTHLY">MONTHLY</option>
+          
+
+
+        </select>
+        <br><br>
+        REMINDER TIME</H1> <br>
+    HOURS: <input type="text" name =h>
+    MINS: <input type="text" name =m> <br>
+
+    
+        
+    <input type="submit">
+    
+
+</form>
+</div>
+<!--<img src="{% static 'tree.jpg' %}"> -->
+
+
+
+{%endblock%}
+
+
